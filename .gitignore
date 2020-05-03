@@ -1,23 +1,163 @@
-# Compiled class file
-*.class
+######################
+2 # Project Specific
+3 ######################
+4 /build/www/**
+5 /src/test/javascript/coverage/
+6 /src/test/javascript/PhantomJS*/
+7
 
-# Log file
-*.log
+8 ######################
+9 # Node
+10 ######################
+11 /node/
+12 node_tmp/
+13 node_modules/
+14 npm-debug.log.*
+15
 
-# BlueJ files
-*.ctxt
+16 ######################
+17 # SASS
+18 ######################
+19 .sass-cache/
+20
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+21 ######################
+22 # Eclipse
+23 ######################
+24 *.pydevproject
+25 .project
+26 .metadata
+27 tmp/
+28 tmp/**/*
+29 *.tmp
+30 *.bak
+31 *.swp
+32 *~.nib
+33 local.properties
+34 .classpath
+35 .settings/
+36 .loadpath
+37 .factorypath
+38 /src/main/resources/rebel.xml
+39
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+40 # External tool builders
+41 .externalToolBuilders/**
+42
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+43 # Locally stored "Eclipse launch configurations"
+44 *.launch
+45
+
+46 # CDT-specific
+47 .cproject
+48
+
+49 # PDT-specific
+50 .buildpath
+51
+
+52 ######################
+53 # Intellij
+54 ######################
+55 .idea/
+56 *.iml
+57 *.iws
+58 *.ipr
+59 *.ids
+60 *.orig
+61
+
+62 ######################
+63 # Visual Studio Code
+64 ######################
+65 .vscode/
+66
+
+67 ######################
+68 # Maven
+69 ######################
+70 /log/
+71 */target/**
+72 ######################
+73 # Gradle
+74 ######################
+75 .gradle/
+76 /build/
+77
+
+78 ######################
+79 # Package Files
+80 ######################
+81 *.jar
+82 *.war
+83 *.ear
+84 *.db
+85
+
+86 ######################
+87 # Windows
+88 ######################
+89 # Windows image file caches
+90 Thumbs.db
+91
+
+92 # Folder config file
+93 Desktop.ini
+94
+
+95 ######################
+96 # Mac OSX
+97 ######################
+98 .DS_Store
+99 .svn
+100
+
+101 # Thumbnails
+102 ._*
+103
+
+104 # Files that might appear on external disk
+105 .Spotlight-V100
+106 .Trashes
+107
+
+108 ######################
+109 # Directories
+110 ######################
+111 /bin/
+112 /deploy/
+113
+
+114 ######################
+115 # Logs
+116 ######################
+117 *.log
+118
+
+119 ######################
+120 # Others
+121 ######################
+122 *.class
+123 *.*~
+124 *~
+125 .merge_file*
+126
+
+127 ######################
+128 # Gradle Wrapper
+129 ######################
+130 !gradle/wrapper/gradle-wrapper.jar
+131
+
+132 ######################
+133 # Maven Wrapper
+134 ######################
+135 !.mvn/wrapper/maven-wrapper.jar
+136
+
+137 ######################
+138 # ESLint
+139 ######################
+140 .eslintcache
+141 /.idea/
