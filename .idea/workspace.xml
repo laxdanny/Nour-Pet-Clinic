@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="630915c9-2513-4aa8-bb2a-97463df66801" name="Default Changelist" comment="" />
+    <list default="true" id="630915c9-2513-4aa8-bb2a-97463df66801" name="Default Changelist" comment="initial project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Model/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Model/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Model/PetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Model/Vet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nour-Pet-Clinic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Nour-Pet-Clinic.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +17,13 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,6 +49,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="nour.springframework.nourpetclinic.Model" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="NourPetClinicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Nour-Pet-Clinic" />
@@ -53,7 +73,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588499544757</updated>
-      <workItem from="1588499561379" duration="1270000" />
+      <workItem from="1588499561379" duration="2608000" />
+      <workItem from="1588624465757" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1588499858311</created>
@@ -76,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588500050149</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial project">
+      <created>1588504524135</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588504524135</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,16 +115,33 @@
     <MESSAGE value="add gitignore" />
     <MESSAGE value="add changelist" />
     <MESSAGE value="add help" />
-    <option name="LAST_COMMIT_MESSAGE" value="add help" />
+    <MESSAGE value="initial project" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1588500047953">
+    <state x="568" y="227" key="#Notifications" timestamp="1588624834254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588500047953" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588499865999">
+    <state x="568" y="227" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1588624834254" />
+    <state x="146" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1588625385558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588499865999" />
+    <state x="146" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1588625385558" />
+    <state x="28" y="0" key="CommitChangelistDialog2" timestamp="1588625421821">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="28" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588625421821" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588504529073">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588504529073" />
+    <state x="-3" y="164" key="run.anything.popup" timestamp="1588624957489">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-3" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1588624957489" />
+    <state x="4" y="49" key="search.everywhere.popup" timestamp="1588624933814">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="4" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588624933814" />
   </component>
 </project>
