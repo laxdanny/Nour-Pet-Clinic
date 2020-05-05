@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="630915c9-2513-4aa8-bb2a-97463df66801" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Services/OwnerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Services/PetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Services/VetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Model/BaseEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nour/springframework/nourpetclinic/Model/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588499544757</updated>
       <workItem from="1588499561379" duration="2608000" />
-      <workItem from="1588624465757" duration="6639000" />
+      <workItem from="1588624465757" duration="7724000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1588499858311</created>
@@ -128,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588625787275</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implement Interfaces for services,Close #4">
+      <created>1588678444594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588678444594</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +160,8 @@
     <MESSAGE value="add help" />
     <MESSAGE value="initial project" />
     <MESSAGE value="adding POJOs, Closes #2." />
-    <option name="LAST_COMMIT_MESSAGE" value="adding POJOs, Closes #2." />
+    <MESSAGE value="Implement Interfaces for services,Close #4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Interfaces for services,Close #4" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -166,18 +173,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="568" y="227" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1588624834254" />
-    <state x="146" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1588625516511">
+    <state x="146" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1588679603560">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="146" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1588625516511" />
-    <state x="28" y="0" width="616" height="728" key="CommitChangelistDialog2" timestamp="1588625783564">
+    <state x="146" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1588679603560" />
+    <state x="630" y="0" width="616" height="728" key="CommitChangelistDialog2" timestamp="1588678440674">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="28" y="0" width="616" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588625783564" />
-    <state x="59" y="81" key="Vcs.Push.Dialog.v2" timestamp="1588625803284">
+    <state x="630" y="0" width="616" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588678440674" />
+    <state x="59" y="81" key="Vcs.Push.Dialog.v2" timestamp="1588678450812">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="59" y="81" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588625803284" />
+    <state x="59" y="81" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588678450812" />
     <state x="-3" y="164" key="run.anything.popup" timestamp="1588624957489">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
